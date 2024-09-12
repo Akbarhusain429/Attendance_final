@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="Attendance_final.Admin.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../StyleSheet/admin.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: 100%; height: auto">
+        <div id="header" class="DivMinHieghtAndWidth">
+        <h1>Jafari B.C.A. college</h1>
+        </div>
+
+        <div id="menu" class="DivMinHieghtAndWidth">
+            <p><a class="ex1" href="admin_profile.aspx">HOME</a></p>
+            <p><a class="ex1" href="ad_addstud.aspx">ADD STUDENT</a></p>
+            <p><a class="ex1" href="ad_adstf.aspx">ADD STAFF</a></p>
+            <p><a class="ex1" href="ad_stfrpt.aspx">STAFF REPORT</a></p>
+            <p><a class="ex1" href="ad_studrpt.aspx">STUDENT REPORT</a></p> 
+            <p><a class="ex1" href="ad_attenrpt.aspx">ATTENDANCE REPORT</a></p>
+            <p><a class="ex1" href="ad_newnoti.aspx">NEWS & NOTIFICATION</a></p>
+            <p><a class="ex1" href="ad_leave.aspx">LEAVE</a></p>
+            <p><a class="ex1" href="ad_complain.aspx">COMPLAIN</a></p>
+        </div>
+        
+        <div id="container" class="DivMinHieghtAndWidth">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer" class="DivMinHieghtAndWidth">
+        <h4>Copyright © 2017-18 Jafari Attendance All Rights Reserved</h4>
+        <h5>Devloped By <a href="">Maherbanali</a> & <a href="">Zaheerabbas</a></h5>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

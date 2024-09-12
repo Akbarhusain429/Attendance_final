@@ -1,0 +1,172 @@
+﻿.DivMinHieghtAndWidth
+{
+    width: 100%;
+}
+
+
+body   
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header
+{
+    background-color:Gray;
+    height:150px;
+}
+
+#header h1
+{
+    font-family:Times New Roman;
+    margin:0px;
+    font-size:50px;
+    line-height:150px;
+    text-align:center;
+    color:Blue;
+    user-select:none;
+}
+#menu
+{
+    background-color:Maroon;
+    height:50px;
+    text-align:center;
+} 
+
+a
+{
+    color:White;
+}
+
+a:hover 
+{
+    color: red;
+}
+
+#menu p
+{
+    display:inline;
+    font-size:20px;
+    padding-right:30px;
+    line-height:50px;
+    color:White;
+}
+#menu a
+{
+    text-decoration:none;
+}
+#menu p:hover
+{
+    color: red;
+    font-size:30px;
+}
+
+#footer
+{
+    height:100px;
+    background-color:Black;
+    
+}
+
+#footer h4
+{
+    color:White;
+    font-family:Times New Roman;
+    margin:0px;
+    font-size:12px;
+    line-height:50px;
+    //margin-top:80px;
+    //margin-right:10px;
+    text-align:center;
+    //float:right; 
+}
+
+#footer h5
+{
+    color:Red;
+    font-family:Times New Roman;
+    margin:0px;
+    font-size:12px;
+    //line-height:100px;
+    //margin-top:80px;
+    //margin-right:10px;
+    text-align:center;
+    //float:left; 
+}
+
+#main
+{
+    background-color:White; 
+    height:450px;
+    margin:0px;
+    position:relative;
+}
+h1
+{
+    color:Red;
+}
+#notification h1
+{
+     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: s;
+     animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color: red;}
+    25%  {color: Maroon;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: Maroon;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+p
+{
+    font-family:@Arial Unicode MS;
+    font-size:18px;
+    color:Blue;
+}
+#detail
+{
+    position:absolute;
+    padding:0px 0px 0px 10px;
+}
+#notification
+{
+    width: 300px;
+    height: 445px;
+    margin: 0 auto;
+    border-style: double;
+    float: right;
+    text-align: center;
+    background-color: #99CCFF;
+}
+
+#news
+{
+    width:270px;
+    height:355px;
+    overflow:auto;  
+    //border-style:solid; 
+    margin-left:12px;
+    font-family:@Arial Unicode MS;
+    font-size:23px;
+    color:Black;
+    
+}
+
+#new
+{
+    margin-top:10px;
+    //background-color:Red;
+    font-size:15px;
+    color:Red;
+}

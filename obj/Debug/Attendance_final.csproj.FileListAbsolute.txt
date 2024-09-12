@@ -1,0 +1,10 @@
+c:\users\maherban\documents\visual studio 2010\Projects\Attendance_final\Attendance_final\bin\Attendance_final.dll
+c:\users\maherban\documents\visual studio 2010\Projects\Attendance_final\Attendance_final\bin\Attendance_final.pdb
+c:\users\maherban\documents\visual studio 2010\Projects\Attendance_final\Attendance_final\obj\Debug\Attendance_final.dll
+c:\users\maherban\documents\visual studio 2010\Projects\Attendance_final\Attendance_final\obj\Debug\Attendance_final.pdb
+C:\Users\Maherban\documents\visual studio 2010\Projects\Attendance_final\Attendance_final\obj\Debug\Attendance_final.csprojResolveAssemblyReference.cache
+D:\study\Sem-6\Project Matireals\Attendance\Final Project\Attendance_final\Attendance_final\bin\Attendance_final.dll
+D:\study\Sem-6\Project Matireals\Attendance\Final Project\Attendance_final\Attendance_final\bin\Attendance_final.pdb
+D:\study\Sem-6\Project Matireals\Attendance\Final Project\Attendance_final\Attendance_final\obj\Debug\Attendance_final.csprojResolveAssemblyReference.cache
+D:\study\Sem-6\Project Matireals\Attendance\Final Project\Attendance_final\Attendance_final\obj\Debug\Attendance_final.dll
+D:\study\Sem-6\Project Matireals\Attendance\Final Project\Attendance_final\Attendance_final\obj\Debug\Attendance_final.pdb

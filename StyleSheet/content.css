@@ -1,0 +1,73 @@
+﻿#main
+{
+     //background-color:Gray; 
+     height:600px;
+     position:relative;
+}
+
+#content
+{
+    height:266px;
+    width:79.5%;
+    position:absolute;
+    top:0px;
+    left:20.5%;
+}
+
+#manu_list
+{
+    width:20%;
+    height:595px;
+    text-align:center;
+    border: double black;
+    color:White;
+    font-size:18px;
+    position:absolute;
+    background-color:Gray;
+    top:0px;
+    left:0px;
+}
+
+a
+{
+    color:White;
+}
+
+a:hover
+{
+    color: red;
+}
+
+#center
+{
+    width:100%;
+    /*position:absolute;*/
+}
+
+#genral
+{
+    width:700px;
+    height:auto;
+    border-style:double;
+    text-align:center;
+    //z-index:100;
+    background-color:rgba(0,0,0,0.6);
+    position:relative;
+    color:White;
+    margin:0 auto;
+    top:50px;
+    padding:10px 0px 10px 0px;
+}
+
+.btn
+{
+    height:39px;
+    width:87px;
+    border-width:3px;
+    border-color:Black;
+    border-style:solid;
+    background-color:Maroon;
+    font-size:15px;
+}
+
+

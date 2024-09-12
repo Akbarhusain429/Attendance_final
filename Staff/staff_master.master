@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="staff_master.master.cs" Inherits="Attendance_final.Staff.staff_master" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<link href="../StyleSheet/content.css" rel="Stylesheet" type="text/css" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<div id="main">
+    <div id="manu_list"  style="background-image:url(../Image/sub_manu.jpg)"> 
+    <asp:Image ID="stfprofile" runat="server" CssClass="profile_img" />
+    <p><a class="ex1" href="stf_home.aspx">HOME</a></p>
+    <p><a class="ex1" href="stf_studreport.aspx">STUDENT REPORT</a></p>
+    <p><a class="ex1" href="stf_attendance.aspx">ATTENDANCE</a></p>
+    <p><a class="ex1" href="stf_attenreport.aspx">ATTENDANCE REPORT</a></p>
+    <p><a class="ex1" href="stf_leave.aspx">LEAVE</a></p>
+    <p><a class="ex1" href="stf_profile.aspx">MY PROFILE</a></p>
+    <p><a class="ex1" href="stf_changpass.aspx">CHANGE PASSWORD</a></p>
+    <p><asp:LinkButton ID="lnklogout" runat="server" onclick="lnklogout_Click">LOGOUT</asp:LinkButton></p>
+</div>
+
+<div id="content">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+</div>
+
+<style type="text/css">
+    .profile_img
+    {
+        width:180px;
+        height:180px;
+    }
+</style>
+
+</asp:Content>

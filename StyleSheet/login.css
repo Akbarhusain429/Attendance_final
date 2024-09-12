@@ -1,0 +1,64 @@
+﻿#main
+{
+    background-color:Gray; 
+    height:450px;
+    margin:0px;
+    position:relative;
+    //-webkit-filter: blur(5px);
+    //-moz-filter: blur(5px);
+    //-o-filter: blur(5px);
+    //-ms-filter: blur(5px);
+    //filter: blur(5px);
+    //background-repeat:no-repeat;
+   // z-index:100%;
+}
+h1
+{
+    color:Red;
+}
+p
+{
+    font-family:@Arial Unicode MS;
+    font-size:18px;
+    color:Blue;
+}
+/*#detail
+{
+    position:absolute;
+    padding:0px 0px 0px 10px;
+}
+#notification
+{
+    width:300px;
+    height:445px;
+    margin:0 auto;
+    border-style:double;
+    float:right;
+    text-align:center;
+}
+
+#news
+{
+    width:270px;
+    height:355px;
+    overflow:auto;  
+    //border-style:solid; 
+    margin-left:12px;
+}*/
+#center
+{
+    width:100%;
+    position:absolute;
+}
+
+#login
+{
+    width:400px;
+    height:285px;
+    margin: 75px auto 100px auto;
+    border-style:double;
+    text-align:center;
+    background-color:rgba(0,0,0,0.6);
+    position:relative;
+    color:White;
+}
